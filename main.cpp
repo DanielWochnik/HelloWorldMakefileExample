@@ -9,7 +9,12 @@ void someFunctionCausingAWarning()
 	}
 }
 
-int main()
+void helloWorld()
 {
 	std::cout << "Hello World!" << std::endl;
+}
+
+int main()
+{
+	helloWorld();
 }
